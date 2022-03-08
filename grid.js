@@ -10,7 +10,7 @@ function buildGrid(i) {
     for (let i = 0; i < 9; i++) {
         let myGrid = document.createElement('div');
         let listofBoxes = [];
-        myGrid.id = 'grid' + listofChars[i] + i;
+        myGrid.id = 'grid' + listofChars[i];
 
         //alternate grey and white
         if (i % 2 == 0) {
