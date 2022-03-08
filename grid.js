@@ -18,7 +18,7 @@ function buildGrid(i) {
             myGrid.style.backgroundColor = "#cccccc";
         }
         else {
-            myGrid.style.backgroundColor = "#ffffff";
+            myGrid.style.backgroundColor = "#eeeeee";
         }
 
         for (let j = 0; j < 9; j++) {
