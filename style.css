@@ -1,0 +1,27 @@
+body {
+    width: auto;
+}
+
+.container{
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#grid9x9{
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#grid3x3{
+    width: auto;
+    grid: subgrid;
+}
+
+.numbox {
+    border: 1px solid black;
+    padding: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
