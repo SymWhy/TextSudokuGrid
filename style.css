@@ -14,9 +14,9 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
-#grid3x3{
-    width: auto;
-    grid: subgrid;
+.subgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .numbox {
