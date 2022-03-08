@@ -13,13 +13,14 @@ function buildGrid(i) {
         for (let j = 0; j < 9; j++) {
             let myBox = document.createElement('div');
             //unicode escape sequence?
-            myBox.id = 'numbox' + listofChars[j] + j;
+            myBox.id = 'numbox' + listofChars[i] + j;
             myBox.innerText = myDigit;
             myGrid.appendChild(myBox);
             listofBoxes.push(myBox);
         }
         console.log(listofBoxes);
-            grid9x9.appendChild(myGrid);
+        listOfGrids.push(listofBoxes);
+        grid9x9.appendChild(myGrid);
             listOfGrids.push(myGrid);
     }
     return listOfGrids;
