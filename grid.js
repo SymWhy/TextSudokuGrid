@@ -12,7 +12,6 @@ function buildGrid(i) {
         myGrid.id = 'grid' + listofChars[i] + i;
         for (let j = 0; j < 9; j++) {
             let myBox = document.createElement('div');
-            //unicode escape sequence?
             myBox.id = 'numbox' + listofChars[i] + j;
             myBox.innerText = myDigit;
             myGrid.appendChild(myBox);
