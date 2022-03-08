@@ -10,6 +10,15 @@ function buildGrid(i) {
         let myGrid = document.createElement('div');
         let listofBoxes = [];
         myGrid.id = 'grid' + listofChars[i] + i;
+
+        //alternate grey and white
+        if (i % 2 == 0) {
+            myGrid.style.backgroundColor = "#cccccc";
+        }
+        else {
+            myGrid.style.backgroundColor = "#ffffff";
+        }
+
         for (let j = 0; j < 9; j++) {
             let myBox = document.createElement('div');
             myBox.id = 'numbox' + listofChars[i] + j;
