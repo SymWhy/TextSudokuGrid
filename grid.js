@@ -1,8 +1,11 @@
 //Javascript source code
 
 const grid9x9 = document.getElementById('grid9x9');
-const buildButton = document.getElementById('buildGrid');
 let listOfGrids = [];
+
+window.onload = () => {
+    buildGrid();
+}
 
 function buildGrid(i) {
     myDigit = '☐';
