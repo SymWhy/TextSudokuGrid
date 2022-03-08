@@ -20,7 +20,6 @@ function buildGrid(i) {
         console.log(listofBoxes);
         listOfGrids.push(listofBoxes);
         grid9x9.appendChild(myGrid);
-            listOfGrids.push(myGrid);
     }
     return listOfGrids;
 }
